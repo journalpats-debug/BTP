@@ -1,1 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BTP – Buy The Pikachu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --yellow: #FFD700;
+            --red: #ff1e1e;
+            --black: #0a0a0a;
+            --white: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: radial-gradient(circle at top, #1b1b1b, #000);
+            color: var(--white);
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            border-bottom: 2px solid var(--yellow);
+        }
+
+        .logo {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 18px;
+            color: var(--yellow);
+        }
+
+        nav a {
+            margin-left: 20px;
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .hero {
+            padding: 120px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 42px;
+            color: var(--yellow);
+            margin-bottom: 30px;
+        }
+
+        .hero p {
+            max-width: 700px;
+            margin: 0 auto 40px;
+            font-size: 20px;
+        }
+
+        .cta {
+            padding: 18px 45px;
+            background: var(--red);
+            color: white;
+            border-radius: 50px;
+            font-weight: 800;
+            text-decoration: none;
+            font-size: 18px;
+            display: inline-block;
+        }
+
+        section {
+            max-width: 1200px;
+            margin: auto;
+            padding: 80px 20px;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 36px;
+            color: var(--yellow);
+            margin-bottom: 50px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background: #111;
+            border: 1px solid #222;
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .auction-box {
+            background: #0f0f0f;
+            border: 2px solid var(--yellow);
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .auction-box img {
+            max-width: 100%;
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            border-top: 1px solid #222;
+            opacity: 0.7;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">BTP</div>
+    <nav>
+        <a href="#mission">Mission</a>
+        <a href="#auction">Auction</a>
+        <a href="#token">Token</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>BUY THE PIKACHU</h1>
+    <p>
+        The rarest Pokémon card on earth.<br>
+        A community-driven memecoin.<br>
+        One goal: help Finnbags win the Pikachu Illustrator.
+    </p>
+    <a href="#" class="cta">Buy $BTP</a>
+</section>
+
+<section id="mission">
+    <h2 class="title">Why This Exists</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>🟡 Pokémon Nostalgia</h3>
+            <p>The Pikachu Illustrator represents peak childhood nostalgia.</p>
+        </div>
+        <div class="card">
+            <h3>💎 Internet Culture</h3>
+            <p>Memecoins are modern folklore. This is history in the making.</p>
+        </div>
+        <div class="card">
+            <h3>🚀 Bags x Finnbags</h3>
+            <p>Community momentum meets a legendary auction.</p>
+        </div>
+    </div>
+</section>
+
+<section id="auction">
+    <h2 class="title">Live Auction</h2>
+
+    <div class="auction-box">
+        <!-- Replace with uploaded image -->
+        <img src="pikachu-illustrator.jpg" alt="Pikachu Illustrator Card">
+
+        <p style="margin-bottom:30px;">
+            Logan Paul’s personally owned Pikachu Illustrator is live on Goldin.
+        </p>
+
+        <a 
+            href="https://goldin.co/item/logan-paul-personally-owned-1998-pokemon-japanese-corocoro-promo-raretua0w"
+            target="_blank"
+            class="cta">
+            View Live Auction on Goldin
+        </a>
+    </div>
+</section>
+
+<section id="token">
+    <h2 class="title">Token Info</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Ticker</h3>
+            <p>$BTP</p>
+        </div>
+        <div class="card">
+            <h3>Name</h3>
+            <p>Buy The Pikachu</p>
+        </div>
+        <div class="card">
+            <h3>Launchpad</h3>
+            <p>Bags</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    $BTP is a memecoin. No utility. No roadmap. Just nostalgia and culture.
+</footer>
+
+</body>
+</html>
 
